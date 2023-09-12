@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.grayscale {
+  filter: grayscale(100%);
+}
+
+.no-grayscale {
+  filter: grayscale(0%);
+}
